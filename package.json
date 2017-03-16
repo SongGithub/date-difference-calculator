@@ -1,0 +1,30 @@
+{
+  "name": "DateDiffCalculator",
+  "version": "0.1.0",
+  "description": "calculates difference in days between dates.",
+  "main": "index.js",
+  "dependencies": {
+    "es6-module-loader": "^0.17.11",
+    "jquery": "^2.2.3",
+    "material-design-lite": "^1.3.0",
+    "systemjs": "^0.19.27",
+    "traceur": "0.0.108"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "chai": "^3.5.0",
+    "lite-server": "^2.2.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register ./src/test/test.js",
+    "dev": "lite-server"
+  },
+  "keywords": [
+    "date-difference"
+  ],
+  "author": "Song Jin",
+  "license": "ISC"
+}
